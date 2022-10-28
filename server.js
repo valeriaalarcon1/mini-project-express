@@ -34,5 +34,5 @@ app.listen(PORT, () =>
 // TODO: Create a route for 404 page using wildcard
 // GET ROUTE for Invalid page
 app.get('*', (req, res) =>
-  res.sendFile(path.join(_dirname, '/public/pages/404.html'))
+  res.sendFile(path.join(__dirname, '/public/pages/404.html'))
 );
